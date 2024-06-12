@@ -1,0 +1,73 @@
+name: book_of_ra
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.3
+  bloc: ^8.1.2
+  flutter_bloc: ^8.0.1
+  shared_preferences: ^2.2.2
+  flutter_svg: ^2.0.7
+  in_app_review: ^2.0.8
+  flutter_screenutil: ^5.9.0
+  freezed_annotation: ^2.4.1
+  intl: ^0.19.0
+  flame: ^1.17.0
+  flame_audio: ^2.10.1
+  bordered_text: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  freezed: ^2.0.3+1
+  build_runner: ^2.1.11
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
+
+
+  fonts:
+    - family: Grenze
+      fonts:
+        - asset: fonts/Grenze-Black.ttf
+        - asset: fonts/Grenze-BlackItalic.ttf
+        - asset: fonts/Grenze-Bold.ttf
+        - asset: fonts/Grenze-BoldItalic.ttf
+        - asset: fonts/Grenze-ExtraBold.ttf
+        - asset: fonts/Grenze-ExtraBoldItalic.ttf
+        - asset: fonts/Grenze-ExtraLight.ttf
+        - asset: fonts/Grenze-ExtraLightItalic.ttf
+        - asset: fonts/Grenze-Italic.ttf
+        - asset: fonts/Grenze-Light.ttf
+        - asset: fonts/Grenze-LightItalic.ttf
+        - asset: fonts/Grenze-Medium.ttf
+        - asset: fonts/Grenze-MediumItalic.ttf
+        - asset: fonts/Grenze-Regular.ttf
+        - asset: fonts/Grenze-SemiBold.ttf
+        - asset: fonts/Grenze-SemiBoldItalic.ttf
+        - asset: fonts/Grenze-Thin.ttf
+        - asset: fonts/Grenze-ThinItalic.ttf
+    - family: InriaSans
+      fonts:
+        - asset: fonts/InriaSans-Bold.ttf
+        - asset: fonts/InriaSans-BoldItalic.ttf
+        - asset: fonts/InriaSans-Italic.ttf
+        - asset: fonts/InriaSans-Light.ttf
+        - asset: fonts/InriaSans-LightItalic.ttf
+        - asset: fonts/InriaSans-Regular.ttf
+
+
+
+
